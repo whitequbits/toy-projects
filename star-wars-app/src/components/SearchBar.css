@@ -1,0 +1,36 @@
+input {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: yellow;
+  text-align: center;
+  font-size: larger;
+}
+
+input:focus {
+  outline: none;
+  border-color: yellow;
+  box-shadow: 0 0 10px yellow;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: yellow;
+  opacity: 1; /* Firefox */
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: yellow;
+  text-align: center;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: yellow;
+  text-align: center;
+}

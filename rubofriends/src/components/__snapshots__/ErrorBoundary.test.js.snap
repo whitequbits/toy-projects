@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cardlist Component render the child 1`] = `""`;
+
+exports[`Cardlist Component render the component 1`] = `
+<h1>
+  There is an error
+</h1>
+`;

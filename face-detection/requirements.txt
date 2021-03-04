@@ -1,0 +1,8 @@
+uvicorn
+fastapi
+requests
+pillow
+python-dotenv
+mtcnn
+tensorflow
+opencv-python
