@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+spec:
+  externalTrafficPolicy: Cluster
+  selector: 
+    app: kubernetes-exercise
+  ports:
+    - protocol: TCP
+      nodePort: 31534
+      port: 80
+      targetPort: 8080
+  type: LoadBalancer
